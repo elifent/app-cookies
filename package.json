@@ -1,0 +1,33 @@
+{
+  "name": "@elifent/app-cookies",
+  "description": "Polymer element to work with browser cookies",
+  "version": "3.0.0",
+  "main": "app-cookies.js",
+  "keywords": [
+    "polymer.js",
+    "avatar",
+    "web-components"
+  ],
+  "author": "aneeshameed@elifent.tech",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elifent/app-cookies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elifent/app-cookies/issues"
+  },
+  "homepage": "https://github.com/elifent/app-cookies#readme",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "cookiejs.js": "^1.0.2"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.1.0",
+    "@polymer/test-fixture": "^4.0.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "wct-mocha": "^1.0.1"
+  }
+}
