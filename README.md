@@ -38,7 +38,6 @@ class SampleElement extends PolymerElement {
       <input type="button" value="Unset Location" on-click="unset">
     `;
   }
-
   static get properties() {
     return {
       location: {
@@ -51,16 +50,12 @@ class SampleElement extends PolymerElement {
       }
     };
   }
-
   setLocation(){
       this.$.location.set(this.newvalue);
   }
-
   unsetLocation(){
       this.$.location.unset();
   }
-
-
 }
 customElements.define("sample-element", SampleElement);
 ```
