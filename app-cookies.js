@@ -15,7 +15,7 @@ import cookiejs from "cookiejs.js";
  * To unset value of cookie use <br/>
  * this.$.elementId.unset();
  * 
- * If you want to read values from app-cookies, code as below
+ * If you want to read values from app-cookies, code as below<br/>
  * `<app-cookies key="cookieKey" data="{{cookieValue}}"></app-cookies>`
  * 
  * 

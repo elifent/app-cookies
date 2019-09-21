@@ -1,6 +1,6 @@
 # \<app-cookies\>
 
-### Element to manage cookies across your app. app-cookies read values from cookie data automatically and serves it to client. Settting and resetting of values are not automatic and need to be triggered by code.
+Element to manage cookies across your app. app-cookies read values from cookie data automatically and serves it to client. Settting and resetting of values are not automatic and need to be triggered by code.
 
 ## Installation
 
