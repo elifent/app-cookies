@@ -81,7 +81,7 @@ Polymer({
     }
 
     if(this.options['expires'] != undefined){
-        options['path'] = this.options['expires'];
+        options['expires'] = this.options['expires'];
     }
 
     if(this.options['max-age'] != undefined){
