@@ -91,7 +91,7 @@ Polymer({
     options['secure'] = this.options['secure'];
 
     //Create a new cookie
-    cookiejs.set(this.key, value);
+    cookiejs.set(this.key, value, options);
      //mutate the value to data
     this.data = value;
   },
